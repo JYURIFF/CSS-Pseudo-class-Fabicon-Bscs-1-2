@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url('pexels-slendyalex-3745234.jpg');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: #4CAF50;
+    color: rgb(236, 73, 73);
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6c06af70;
+}
+
+button:active {
+    font-size: 18px;
+    color: rgb(59, 43, 148);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #390404;
+    font-size: 16px;
+    width: 200px;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #4CAF50;
+}
+
+input[type="text"]:focus-visible {
+    color: blue;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF6347;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+button, input[type="text"], a {
+    transition: all 0.3s ease;
+}
+
+button::after {
+    content: ' 🎉';
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
